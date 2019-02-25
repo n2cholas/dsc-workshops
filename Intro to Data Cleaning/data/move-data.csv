@@ -1,0 +1,729 @@
+Index;Name;Type;Category;Contest;PP;Power;Accuracy;Generation
+1;Pound;Normal;Physical;Tough;35;40;100;1
+2;Karate Chop;Fighting;Physical;Tough;25;50;100;1
+3;Double Slap;Normal;Physical;Cute;10;15;85;1
+4;Comet Punch;Normal;Physical;Tough;15;18;85;1
+5;Mega Punch;Normal;Physical;Tough;20;80;85;1
+6;Pay Day;Normal;Physical;Clever;20;40;100;1
+7;Fire Punch;Fire;Physical;Tough;15;75;100;1
+8;Ice Punch;Ice;Physical;Beautiful;15;75;100;1
+9;Thunder Punch;Electric;Physical;Cool;15;75;100;1
+10;Scratch;Normal;Physical;Tough;35;40;100;1
+11;Vice Grip;Normal;Physical;Tough;30;55;100;1
+12;Guillotine;Normal;Physical;Cool;5;None;None;1
+13;Razor Wind;Normal;Special;Cool;10;80;None;1
+14;Swords Dance;Normal;Status;Beautiful;20;None;None;1
+15;Cut;Normal;Physical;Cool;30;50;95;1
+16;Gust;Flying;Special;Clever;35;40;100;1
+17;Wing Attack;Flying;Physical;Cool;35;60;100;1
+18;Whirlwind;Normal;Status;Clever;20;None;None;1
+19;Fly;Flying;Physical;Clever;15;90;95;1
+20;Bind;Normal;Physical;Tough;20;15;None;1
+21;Slam;Normal;Physical;Tough;20;80;75;1
+22;Vine Whip;Grass;Physical;Cool;25;45;100;1
+23;Stomp;Normal;Physical;Tough;20;65;100;1
+24;Double Kick;Fighting;Physical;Cool;30;30;100;1
+25;Mega Kick;Normal;Physical;Cool;5;120;75;1
+26;Jump Kick;Fighting;Physical;Cool;10;100;95;1
+27;Rolling Kick;Fighting;Physical;Cool;15;60;85;1
+28;Sand Attack;Ground;Status;Cute;15;None;100;1
+29;Headbutt;Normal;Physical;Tough;15;70;100;1
+30;Horn Attack;Normal;Physical;Cool;25;65;100;1
+31;Fury Attack;Normal;Physical;Cool;20;15;85;1
+32;Horn Drill;Normal;Physical;Cool;5;None;None;1
+33;Tackle;Normal;Physical;Tough;35;40;None;1
+34;Body Slam;Normal;Physical;Tough;15;85;100;1
+35;Wrap;Normal;Physical;Tough;20;15;None;1
+36;Take Down;Normal;Physical;Tough;20;90;85;1
+37;Thrash;Normal;Physical;Tough;10;120;100;1
+38;Double-Edge;Normal;Physical;Tough;15;120;100;1
+39;Tail Whip;Normal;Status;Cute;30;None;100;1
+40;Poison Sting;Poison;Physical;Clever;35;15;100;1
+41;Twineedle;Bug;Physical;Cool;20;25;100;1
+42;Pin Missile;Bug;Physical;Cool;20;25;None;1
+43;Leer;Normal;Status;Cool;30;None;100;1
+44;Bite;Dark;Physical;Tough;25;60;100;1
+45;Growl;Normal;Status;Cute;40;None;100;1
+46;Roar;Normal;Status;Cool;20;None;None;1
+47;Sing;Normal;Status;Cute;15;None;55;1
+48;Supersonic;Normal;Status;Clever;20;None;55;1
+49;Sonic Boom;Normal;Special;Cool;20;None;90;1
+50;Disable;Normal;Status;Clever;20;None;None;1
+51;Acid;Poison;Special;Clever;30;40;100;1
+52;Ember;Fire;Special;Cute;25;40;100;1
+53;Flamethrower;Fire;Special;Beautiful;15;90;100;1
+54;Mist;Ice;Status;Beautiful;30;None;None;1
+55;Water Gun;Water;Special;Cute;25;40;100;1
+56;Hydro Pump;Water;Special;Beautiful;5;110;80;1
+57;Surf;Water;Special;Beautiful;15;90;100;1
+58;Ice Beam;Ice;Special;Beautiful;10;90;100;1
+59;Blizzard;Ice;Special;Beautiful;5;110;None;1
+60;Psybeam;Psychic;Special;Beautiful;20;65;100;1
+61;Bubble Beam;Water;Special;Beautiful;20;65;100;1
+62;Aurora Beam;Ice;Special;Beautiful;20;65;100;1
+63;Hyper Beam;Normal;Special;Cool;5;150;90;1
+64;Peck;Flying;Physical;Cool;35;35;100;1
+65;Drill Peck;Flying;Physical;Cool;20;80;100;1
+66;Submission;Fighting;Physical;Cool;20;80;80;1
+67;Low Kick;Fighting;Physical;Tough;20;None;None;1
+68;Counter;Fighting;Physical;Tough;20;None;100;1
+69;Seismic Toss;Fighting;Physical;Tough;20;None;100;1
+70;Strength;Normal;Physical;Tough;15;80;100;1
+71;Absorb;Grass;Special;Clever;25;20;100;1
+72;Mega Drain;Grass;Special;Clever;15;40;100;1
+73;Leech Seed;Grass;Status;Clever;10;None;90;1
+74;Growth;Normal;Status;Beautiful;20;None;None;1
+75;Razor Leaf;Grass;Physical;Cool;25;55;95;1
+76;Solar Beam;Grass;Special;Cool;10;120;100;1
+77;Poison Powder;Poison;Status;Clever;35;None;75;1
+78;Stun Spore;Grass;Status;Clever;30;None;75;1
+79;Sleep Powder;Grass;Status;Clever;15;None;75;1
+80;Petal Dance;Grass;Special;Beautiful;10;120;100;1
+81;String Shot;Bug;Status;Clever;40;None;95;1
+82;Dragon Rage;Dragon;Special;Cool;10;None;100;1
+83;Fire Spin;Fire;Special;Beautiful;15;35;None;1
+84;Thunder Shock;Electric;Special;Cool;30;40;100;1
+85;Thunderbolt;Electric;Special;Cool;15;90;100;1
+86;Thunder Wave;Electric;Status;Cool;20;None;None;1
+87;Thunder;Electric;Special;Cool;10;110;70;1
+88;Rock Throw;Rock;Physical;Tough;15;50;None;1
+89;Earthquake;Ground;Physical;Tough;10;100;100;1
+90;Fissure;Ground;Physical;Tough;5;None;None;1
+91;Dig;Ground;Physical;Tough;10;80;100;1
+92;Toxic;Poison;Status;Clever;10;None;None;1
+93;Confusion;Psychic;Special;Clever;25;50;100;1
+94;Psychic;Psychic;Special;Clever;10;90;100;1
+95;Hypnosis;Psychic;Status;Clever;20;None;None;1
+96;Meditate;Psychic;Status;Beautiful;40;None;None;1
+97;Agility;Psychic;Status;Cool;30;None;None;1
+98;Quick Attack;Normal;Physical;Cool;30;40;100;1
+99;Rage;Normal;Physical;Tough;20;20;100;1
+100;Teleport;Psychic;Status;Cool;20;None;None;1
+101;Night Shade;Ghost;Special;Clever;15;None;100;1
+102;Mimic;Normal;Status;Cute;10;None;None;1
+103;Screech;Normal;Status;Clever;40;None;85;1
+104;Double Team;Normal;Status;Cool;15;None;None;1
+105;Recover;Normal;Status;Clever;10;None;None;1
+106;Harden;Normal;Status;Tough;30;None;None;1
+107;Minimize;Normal;Status;Cute;10;None;None;1
+108;Smokescreen;Normal;Status;Clever;20;None;100;1
+109;Confuse Ray;Ghost;Status;Clever;10;None;100;1
+110;Withdraw;Water;Status;Cute;40;None;None;1
+111;Defense Curl;Normal;Status;Cute;40;None;None;1
+112;Barrier;Psychic;Status;Cool;20;None;None;1
+113;Light Screen;Psychic;Status;Beautiful;30;None;None;1
+114;Haze;Ice;Status;Beautiful;30;None;None;1
+115;Reflect;Psychic;Status;Clever;20;None;None;1
+116;Focus Energy;Normal;Status;Cool;30;None;None;1
+117;Bide;Normal;Physical;Tough;10;None;None;1
+118;Metronome;Normal;Status;Cute;10;None;None;1
+119;Mirror Move;Flying;Status;Clever;20;None;None;1
+120;Self-Destruct;Normal;Physical;Beautiful;5;200;100;1
+121;Egg Bomb;Normal;Physical;Cute;10;100;75;1
+122;Lick;Ghost;Physical;Cute;30;30;100;1
+123;Smog;Poison;Special;Tough;20;30;70;1
+124;Sludge;Poison;Special;Tough;20;65;100;1
+125;Bone Club;Ground;Physical;Tough;20;65;85;1
+126;Fire Blast;Fire;Special;Beautiful;5;110;85;1
+127;Waterfall;Water;Physical;Tough;15;80;100;1
+128;Clamp;Water;Physical;Tough;15;35;None;1
+129;Swift;Normal;Special;Cool;20;60;None;1
+130;Skull Bash;Normal;Physical;Tough;10;130;100;1
+131;Spike Cannon;Normal;Physical;Cool;15;20;100;1
+132;Constrict;Normal;Physical;Tough;35;10;100;1
+133;Amnesia;Psychic;Status;Cute;20;None;None;1
+134;Kinesis;Psychic;Status;Clever;15;None;80;1
+135;Soft-Boiled;Normal;Status;Cute;10;None;None;1
+136;High Jump Kick;Fighting;Physical;Cool;10;130;90;1
+137;Glare;Normal;Status;Tough;30;None;None;1
+138;Dream Eater;Psychic;Special;Clever;15;100;100;1
+139;Poison Gas;Poison;Status;Clever;40;None;None;1
+140;Barrage;Normal;Physical;Cute;20;15;85;1
+141;Leech Life;Bug;Physical;Clever;10;80;100;1
+142;Lovely Kiss;Normal;Status;Beautiful;10;None;75;1
+143;Sky Attack;Flying;Physical;Cool;5;140;90;1
+144;Transform;Normal;Status;Clever;10;None;None;1
+145;Bubble;Water;Special;Cute;30;40;100;1
+146;Dizzy Punch;Normal;Physical;Cute;10;70;100;1
+147;Spore;Grass;Status;Beautiful;15;None;100;1
+148;Flash;Normal;Status;Beautiful;20;None;None;1
+149;Psywave;Psychic;Special;Clever;15;None;None;1
+150;Splash;Normal;Status;Cute;40;None;None;1
+151;Acid Armor;Poison;Status;Tough;20;None;None;1
+152;Crabhammer;Water;Physical;Tough;10;100;None;1
+153;Explosion;Normal;Physical;Beautiful;5;250;100;1
+154;Fury Swipes;Normal;Physical;Tough;15;18;80;1
+155;Bonemerang;Ground;Physical;Tough;10;50;90;1
+156;Rest;Psychic;Status;Cute;10;None;None;1
+157;Rock Slide;Rock;Physical;Tough;10;75;90;1
+158;Hyper Fang;Normal;Physical;Cool;15;80;90;1
+159;Sharpen;Normal;Status;Cute;30;None;None;1
+160;Conversion;Normal;Status;Beautiful;30;None;None;1
+161;Tri Attack;Normal;Special;Beautiful;10;80;100;1
+162;Super Fang;Normal;Physical;Tough;10;None;90;1
+163;Slash;Normal;Physical;Cool;20;70;100;1
+164;Substitute;Normal;Status;Cute;10;None;None;1
+165;Struggle;Normal;Physical;Tough;1;50;None;1
+166;Sketch;Normal;Status;Clever;1;None;None;2
+167;Triple Kick;Fighting;Physical;Cool;10;10;90;2
+168;Thief;Dark;Physical;Tough;25;60;100;2
+169;Spider Web;Bug;Status;Clever;10;None;None;2
+170;Mind Reader;Normal;Status;Clever;5;None;None;2
+171;Nightmare;Ghost;Status;Clever;15;None;100;2
+172;Flame Wheel;Fire;Physical;Beautiful;25;60;100;2
+173;Snore;Normal;Special;Cute;15;50;100;2
+174;Curse;Ghost;Status;Tough;10;None;None;2
+175;Flail;Normal;Physical;Cute;15;None;100;2
+176;Conversion 2;Normal;Status;Beautiful;30;None;None;2
+177;Aeroblast;Flying;Special;Cool;5;100;95;2
+178;Cotton Spore;Grass;Status;Beautiful;40;None;None;2
+179;Reversal;Fighting;Physical;Cool;15;None;100;2
+180;Spite;Ghost;Status;Tough;10;None;100;2
+181;Powder Snow;Ice;Special;Beautiful;25;40;100;2
+182;Protect;Normal;Status;Cute;10;None;None;2
+183;Mach Punch;Fighting;Physical;Cool;30;40;100;2
+184;Scary Face;Normal;Status;Tough;10;None;None;2
+185;Feint Attack;Dark;Physical;Clever;20;60;None;2
+186;Sweet Kiss;Fairy;Status;Cute;10;None;75;2
+187;Belly Drum;Normal;Status;Cute;10;None;None;2
+188;Sludge Bomb;Poison;Special;Tough;10;90;100;2
+189;Mud-Slap;Ground;Special;Cute;10;20;100;2
+190;Octazooka;Water;Special;Tough;10;65;85;2
+191;Spikes;Ground;Status;Clever;20;None;None;2
+192;Zap Cannon;Electric;Special;Cool;5;120;50;2
+193;Foresight;Normal;Status;Clever;40;None;None;2
+194;Destiny Bond;Ghost;Status;Clever;5;None;None;2
+195;Perish Song;Normal;Status;Beautiful;5;None;None;2
+196;Icy Wind;Ice;Special;Beautiful;15;55;95;2
+197;Detect;Fighting;Status;Cool;5;None;None;2
+198;Bone Rush;Ground;Physical;Tough;10;25;None;2
+199;Lock-On;Normal;Status;Clever;5;None;None;2
+200;Outrage;Dragon;Physical;Cool;10;120;100;2
+201;Sandstorm;Rock;Status;Tough;10;None;None;2
+202;Giga Drain;Grass;Special;Clever;10;75;100;2
+203;Endure;Normal;Status;Tough;10;None;None;2
+204;Charm;Fairy;Status;Cute;20;None;100;2
+205;Rollout;Rock;Physical;Cute;20;30;90;2
+206;False Swipe;Normal;Physical;Cool;40;40;100;2
+207;Swagger;Normal;Status;Cute;15;None;None;2
+208;Milk Drink;Normal;Status;Cute;10;None;None;2
+209;Spark;Electric;Physical;Cool;20;65;100;2
+210;Fury Cutter;Bug;Physical;Cool;20;40;95;2
+211;Steel Wing;Steel;Physical;Cool;25;70;90;2
+212;Mean Look;Normal;Status;Beautiful;5;None;None;2
+213;Attract;Normal;Status;Cute;15;None;100;2
+214;Sleep Talk;Normal;Status;Cute;10;None;None;2
+215;Heal Bell;Normal;Status;Beautiful;5;None;None;2
+216;Return;Normal;Physical;Cute;20;None;100;2
+217;Present;Normal;Physical;Cute;15;None;90;2
+218;Frustration;Normal;Physical;Cute;20;None;100;2
+219;Safeguard;Normal;Status;Beautiful;25;None;None;2
+220;Pain Split;Normal;Status;Clever;20;None;None;2
+221;Sacred Fire;Fire;Physical;Beautiful;5;100;95;2
+222;Magnitude;Ground;Physical;Tough;30;None;100;2
+223;Dynamic Punch;Fighting;Physical;Cool;5;100;50;2
+224;Megahorn;Bug;Physical;Cool;10;120;85;2
+225;Dragon Breath;Dragon;Special;Cool;20;60;100;2
+226;Baton Pass;Normal;Status;Cute;40;None;None;2
+227;Encore;Normal;Status;Cute;5;None;100;2
+228;Pursuit;Dark;Physical;Clever;20;40;100;2
+229;Rapid Spin;Normal;Physical;Cool;40;20;100;2
+230;Sweet Scent;Normal;Status;Cute;20;None;100;2
+231;Iron Tail;Steel;Physical;Cool;15;100;75;2
+232;Metal Claw;Steel;Physical;Cool;35;50;95;2
+233;Vital Throw;Fighting;Physical;Cool;10;70;None;2
+234;Morning Sun;Normal;Status;Beautiful;5;None;None;2
+235;Synthesis;Grass;Status;Clever;5;None;None;2
+236;Moonlight;Fairy;Status;Beautiful;5;None;None;2
+237;Hidden Power;Normal;Special;Clever;15;60;100;2
+238;Cross Chop;Fighting;Physical;Cool;5;100;80;2
+239;Twister;Dragon;Special;Cool;20;40;100;2
+240;Rain Dance;Water;Status;Beautiful;5;None;None;2
+241;Sunny Day;Fire;Status;Beautiful;5;None;None;2
+242;Crunch;Dark;Physical;Tough;15;80;100;2
+243;Mirror Coat;Psychic;Special;Beautiful;20;None;100;2
+244;Psych Up;Normal;Status;Clever;10;None;None;2
+245;Extreme Speed;Normal;Physical;Cool;5;80;100;2
+246;Ancient Power;Rock;Special;Tough;5;60;100;2
+247;Shadow Ball;Ghost;Special;Clever;15;80;100;2
+248;Future Sight;Psychic;Special;Clever;10;120;None;2
+249;Rock Smash;Fighting;Physical;Tough;15;40;100;2
+250;Whirlpool;Water;Special;Beautiful;15;35;None;2
+251;Beat Up;Dark;Physical;Clever;10;None;100;2
+252;Fake Out;Normal;Physical;Cute;10;40;100;3
+253;Uproar;Normal;Special;Cute;10;90;100;3
+254;Stockpile;Normal;Status;Tough;20;None;None;3
+255;Spit Up;Normal;Special;Tough;10;None;100;3
+256;Swallow;Normal;Status;Tough;10;None;None;3
+257;Heat Wave;Fire;Special;Beautiful;10;95;90;3
+258;Hail;Ice;Status;Beautiful;10;None;None;3
+259;Torment;Dark;Status;Tough;15;None;100;3
+260;Flatter;Dark;Status;Clever;15;None;100;3
+261;Will-O-Wisp;Fire;Status;Beautiful;15;None;None;3
+262;Memento;Dark;Status;Tough;10;None;100;3
+263;Facade;Normal;Physical;Cute;20;70;100;3
+264;Focus Punch;Fighting;Physical;Tough;20;150;100;3
+265;Smelling Salts;Normal;Physical;Tough;10;70;100;3
+266;Follow Me;Normal;Status;Cute;20;None;None;3
+267;Nature Power;Normal;Status;Beautiful;20;None;None;3
+268;Charge;Electric;Status;Clever;20;None;None;3
+269;Taunt;Dark;Status;Clever;20;None;100;3
+270;Helping Hand;Normal;Status;Clever;20;None;None;3
+271;Trick;Psychic;Status;Clever;10;None;100;3
+272;Role Play;Psychic;Status;Cute;10;None;None;3
+273;Wish;Normal;Status;Cute;10;None;None;3
+274;Assist;Normal;Status;Cute;20;None;None;3
+275;Ingrain;Grass;Status;Clever;20;None;None;3
+276;Superpower;Fighting;Physical;Tough;5;120;100;3
+277;Magic Coat;Psychic;Status;Beautiful;15;None;None;3
+278;Recycle;Normal;Status;Clever;10;None;None;3
+279;Revenge;Fighting;Physical;Tough;10;60;100;3
+280;Brick Break;Fighting;Physical;Cool;15;75;100;3
+281;Yawn;Normal;Status;Cute;10;None;None;3
+282;Knock Off;Dark;Physical;Clever;20;65;100;3
+283;Endeavor;Normal;Physical;Tough;5;None;100;3
+284;Eruption;Fire;Special;Beautiful;5;150;100;3
+285;Skill Swap;Psychic;Status;Clever;10;None;None;3
+286;Imprison;Psychic;Status;Clever;10;None;None;3
+287;Refresh;Normal;Status;Cute;20;None;None;3
+288;Grudge;Ghost;Status;Tough;5;None;None;3
+289;Snatch;Dark;Status;Clever;10;None;None;3
+290;Secret Power;Normal;Physical;Clever;20;70;100;3
+291;Dive;Water;Physical;Beautiful;10;80;100;3
+292;Arm Thrust;Fighting;Physical;Tough;20;15;100;3
+293;Camouflage;Normal;Status;Clever;20;None;None;3
+294;Tail Glow;Bug;Status;Beautiful;20;None;None;3
+295;Luster Purge;Psychic;Special;Clever;5;70;100;3
+296;Mist Ball;Psychic;Special;Clever;5;70;100;3
+297;Feather Dance;Flying;Status;Beautiful;15;None;100;3
+298;Teeter Dance;Normal;Status;Cute;20;None;100;3
+299;Blaze Kick;Fire;Physical;Cool;10;85;90;3
+300;Mud Sport;Ground;Status;Cute;15;None;None;3
+301;Ice Ball;Ice;Physical;Beautiful;20;30;90;3
+302;Needle Arm;Grass;Physical;Clever;15;60;100;3
+303;Slack Off;Normal;Status;Cute;10;None;None;3
+304;Hyper Voice;Normal;Special;Cool;10;90;100;3
+305;Poison Fang;Poison;Physical;Clever;15;50;100;3
+306;Crush Claw;Normal;Physical;Cool;10;75;95;3
+307;Blast Burn;Fire;Special;Beautiful;5;150;90;3
+308;Hydro Cannon;Water;Special;Beautiful;5;150;90;3
+309;Meteor Mash;Steel;Physical;Cool;10;90;None;3
+310;Astonish;Ghost;Physical;Cute;15;30;100;3
+311;Weather Ball;Normal;Special;Beautiful;10;50;100;3
+312;Aromatherapy;Grass;Status;Clever;5;None;None;3
+313;Fake Tears;Dark;Status;Cute;20;None;100;3
+314;Air Cutter;Flying;Special;Cool;25;60;95;3
+315;Overheat;Fire;Special;Beautiful;5;130;90;3
+316;Odor Sleuth;Normal;Status;Clever;40;None;None;3
+317;Rock Tomb;Rock;Physical;Clever;15;60;None;3
+318;Silver Wind;Bug;Special;Beautiful;5;60;100;3
+319;Metal Sound;Steel;Status;Clever;40;None;85;3
+320;Grass Whistle;Grass;Status;Clever;15;None;55;3
+321;Tickle;Normal;Status;Cute;20;None;100;3
+322;Cosmic Power;Psychic;Status;Beautiful;20;None;None;3
+323;Water Spout;Water;Special;Beautiful;5;150;100;3
+324;Signal Beam;Bug;Special;Beautiful;15;75;100;3
+325;Shadow Punch;Ghost;Physical;Clever;20;60;None;3
+326;Extrasensory;Psychic;Special;Cool;20;80;100;3
+327;Sky Uppercut;Fighting;Physical;Cool;15;85;90;3
+328;Sand Tomb;Ground;Physical;Clever;15;35;None;3
+329;Sheer Cold;Ice;Special;Beautiful;5;None;None;3
+330;Muddy Water;Water;Special;Tough;10;90;85;3
+331;Bullet Seed;Grass;Physical;Cool;30;25;100;3
+332;Aerial Ace;Flying;Physical;Cool;20;60;None;3
+333;Icicle Spear;Ice;Physical;Beautiful;30;25;100;3
+334;Iron Defense;Steel;Status;Tough;15;None;None;3
+335;Block;Normal;Status;Cute;5;None;None;3
+336;Howl;Normal;Status;Cool;40;None;None;3
+337;Dragon Claw;Dragon;Physical;Cool;15;80;100;3
+338;Frenzy Plant;Grass;Special;Cool;5;150;90;3
+339;Bulk Up;Fighting;Status;Cool;20;None;None;3
+340;Bounce;Flying;Physical;Cute;5;85;85;3
+341;Mud Shot;Ground;Special;Tough;15;55;95;3
+342;Poison Tail;Poison;Physical;Clever;25;50;100;3
+343;Covet;Normal;Physical;Cute;25;60;100;3
+344;Volt Tackle;Electric;Physical;Cool;15;120;100;3
+345;Magical Leaf;Grass;Special;Beautiful;20;60;None;3
+346;Water Sport;Water;Status;Cute;15;None;None;3
+347;Calm Mind;Psychic;Status;Clever;20;None;None;3
+348;Leaf Blade;Grass;Physical;Cool;15;90;100;3
+349;Dragon Dance;Dragon;Status;Cool;20;None;None;3
+350;Rock Blast;Rock;Physical;Tough;10;25;None;3
+351;Shock Wave;Electric;Special;Cool;20;60;None;3
+352;Water Pulse;Water;Special;Beautiful;20;60;100;3
+353;Doom Desire;Steel;Special;Beautiful;5;140;None;3
+354;Psycho Boost;Psychic;Special;Clever;5;140;90;3
+355;Roost;Flying;Status;Clever;10;None;None;4
+356;Gravity;Psychic;Status;Clever;5;None;None;4
+357;Miracle Eye;Psychic;Status;Clever;40;None;None;4
+358;Wake-Up Slap;Fighting;Physical;Tough;10;70;100;4
+359;Hammer Arm;Fighting;Physical;Tough;10;100;90;4
+360;Gyro Ball;Steel;Physical;Cool;5;None;100;4
+361;Healing Wish;Psychic;Status;Beautiful;10;None;None;4
+362;Brine;Water;Special;Tough;10;65;100;4
+363;Natural Gift;Normal;Physical;Clever;15;None;100;4
+364;Feint;Normal;Physical;Clever;10;30;100;4
+365;Pluck;Flying;Physical;Cute;20;60;100;4
+366;Tailwind;Flying;Status;Cool;15;None;None;4
+367;Acupressure;Normal;Status;Tough;30;None;None;4
+368;Metal Burst;Steel;Physical;Cool;10;None;100;4
+369;U-turn;Bug;Physical;Cute;20;70;100;4
+370;Close Combat;Fighting;Physical;Tough;5;120;100;4
+371;Payback;Dark;Physical;Tough;10;50;100;4
+372;Assurance;Dark;Physical;Clever;10;60;100;4
+373;Embargo;Dark;Status;Clever;15;None;100;4
+374;Fling;Dark;Physical;Cute;10;None;100;4
+375;Psycho Shift;Psychic;Status;Clever;10;None;None;4
+376;Trump Card;Normal;Special;Cool;5;None;None;4
+377;Heal Block;Psychic;Status;Clever;15;None;100;4
+378;Wring Out;Normal;Special;Tough;5;None;100;4
+379;Power Trick;Psychic;Status;Clever;10;None;None;4
+380;Gastro Acid;Poison;Status;Tough;10;None;100;4
+381;Lucky Chant;Normal;Status;Cute;30;None;None;4
+382;Me First;Normal;Status;Clever;20;None;None;4
+383;Copycat;Normal;Status;Cute;20;None;None;4
+384;Power Swap;Psychic;Status;Clever;10;None;None;4
+385;Guard Swap;Psychic;Status;Clever;10;None;None;4
+386;Punishment;Dark;Physical;Cool;5;None;100;4
+387;Last Resort;Normal;Physical;Cute;5;140;100;4
+388;Worry Seed;Grass;Status;Clever;10;None;100;4
+389;Sucker Punch;Dark;Physical;Clever;5;70;100;4
+390;Toxic Spikes;Poison;Status;Clever;20;None;None;4
+391;Heart Swap;Psychic;Status;Clever;10;None;None;4
+392;Aqua Ring;Water;Status;Beautiful;20;None;None;4
+393;Magnet Rise;Electric;Status;Clever;10;None;None;4
+394;Flare Blitz;Fire;Physical;Cool;15;120;100;4
+395;Force Palm;Fighting;Physical;Cool;10;60;100;4
+396;Aura Sphere;Fighting;Special;Beautiful;20;80;None;4
+397;Rock Polish;Rock;Status;Tough;20;None;None;4
+398;Poison Jab;Poison;Physical;Tough;20;80;100;4
+399;Dark Pulse;Dark;Special;Cool;15;80;100;4
+400;Night Slash;Dark;Physical;Cool;15;70;100;4
+401;Aqua Tail;Water;Physical;Beautiful;10;90;90;4
+402;Seed Bomb;Grass;Physical;Tough;15;80;100;4
+403;Air Slash;Flying;Special;Cool;15;75;95;4
+404;X-Scissor;Bug;Physical;Cool;15;80;100;4
+405;Bug Buzz;Bug;Special;Beautiful;10;90;100;4
+406;Dragon Pulse;Dragon;Special;Beautiful;10;85;100;4
+407;Dragon Rush;Dragon;Physical;Tough;10;100;75;4
+408;Power Gem;Rock;Special;Beautiful;20;80;100;4
+409;Drain Punch;Fighting;Physical;Tough;10;75;100;4
+410;Vacuum Wave;Fighting;Special;Cool;30;40;100;4
+411;Focus Blast;Fighting;Special;Cool;5;120;70;4
+412;Energy Ball;Grass;Special;Beautiful;10;90;100;4
+413;Brave Bird;Flying;Physical;Cool;15;120;100;4
+414;Earth Power;Ground;Special;Beautiful;10;90;100;4
+415;Switcheroo;Dark;Status;Clever;10;None;100;4
+416;Giga Impact;Normal;Physical;Tough;5;150;90;4
+417;Nasty Plot;Dark;Status;Clever;20;None;None;4
+418;Bullet Punch;Steel;Physical;Tough;30;40;100;4
+419;Avalanche;Ice;Physical;Beautiful;10;60;100;4
+420;Ice Shard;Ice;Physical;Beautiful;30;40;100;4
+421;Shadow Claw;Ghost;Physical;Cool;15;70;100;4
+422;Thunder Fang;Electric;Physical;Cool;15;65;95;4
+423;Ice Fang;Ice;Physical;Cool;15;65;95;4
+424;Fire Fang;Fire;Physical;Cool;15;65;95;4
+425;Shadow Sneak;Ghost;Physical;Clever;30;40;100;4
+426;Mud Bomb;Ground;Special;Cute;10;65;85;4
+427;Psycho Cut;Psychic;Physical;Cool;20;70;100;4
+428;Zen Headbutt;Psychic;Physical;Clever;15;80;90;4
+429;Mirror Shot;Steel;Special;Beautiful;10;65;85;4
+430;Flash Cannon;Steel;Special;Beautiful;10;80;100;4
+431;Rock Climb;Normal;Physical;Tough;20;90;85;4
+432;Defog;Flying;Status;Cool;15;None;None;4
+433;Trick Room;Psychic;Status;Clever;5;None;None;4
+434;Draco Meteor;Dragon;Special;Beautiful;5;130;90;4
+435;Discharge;Electric;Special;Beautiful;15;80;100;4
+436;Lava Plume;Fire;Special;Tough;15;80;100;4
+437;Leaf Storm;Grass;Special;Beautiful;5;130;90;4
+438;Power Whip;Grass;Physical;Tough;10;120;85;4
+439;Rock Wrecker;Rock;Physical;Tough;5;150;90;4
+440;Cross Poison;Poison;Physical;Cool;20;70;100;4
+441;Gunk Shot;Poison;Physical;Tough;5;120;None;4
+442;Iron Head;Steel;Physical;Tough;15;80;100;4
+443;Magnet Bomb;Steel;Physical;Cool;20;60;None;4
+444;Stone Edge;Rock;Physical;Tough;5;100;80;4
+445;Captivate;Normal;Status;Cute;20;None;100;4
+446;Stealth Rock;Rock;Status;Cool;20;None;None;4
+447;Grass Knot;Grass;Special;Cute;20;None;100;4
+448;Chatter;Flying;Special;Cute;20;65;100;4
+449;Judgment;Normal;Special;Beautiful;10;100;100;4
+450;Bug Bite;Bug;Physical;Cute;20;60;100;4
+451;Charge Beam;Electric;Special;Beautiful;10;50;90;4
+452;Wood Hammer;Grass;Physical;Tough;15;120;100;4
+453;Aqua Jet;Water;Physical;Cool;20;40;100;4
+454;Attack Order;Bug;Physical;Clever;15;90;100;4
+455;Defend Order;Bug;Status;Clever;10;None;None;4
+456;Heal Order;Bug;Status;Clever;10;None;None;4
+457;Head Smash;Rock;Physical;Tough;5;150;80;4
+458;Double Hit;Normal;Physical;Cool;10;35;90;4
+459;Roar of Time;Dragon;Special;Beautiful;5;150;90;4
+460;Spacial Rend;Dragon;Special;Beautiful;5;100;95;4
+461;Lunar Dance;Psychic;Status;Beautiful;10;None;None;4
+462;Crush Grip;Normal;Physical;Tough;5;None;100;4
+463;Magma Storm;Fire;Special;Tough;5;100;None;4
+464;Dark Void;Dark;Status;Clever;10;None;None;4
+465;Seed Flare;Grass;Special;Beautiful;5;120;85;4
+466;Ominous Wind;Ghost;Special;Beautiful;5;60;100;4
+467;Shadow Force;Ghost;Physical;Cool;5;120;100;4
+468;Hone Claws;Dark;Status;Cute;15;None;None;5
+469;Wide Guard;Rock;Status;Tough;10;None;None;5
+470;Guard Split;Psychic;Status;Clever;10;None;None;5
+471;Power Split;Psychic;Status;Clever;10;None;None;5
+472;Wonder Room;Psychic;Status;Clever;10;None;None;5
+473;Psyshock;Psychic;Special;Beautiful;10;80;100;5
+474;Venoshock;Poison;Special;Beautiful;10;65;100;5
+475;Autotomize;Steel;Status;Beautiful;15;None;None;5
+476;Rage Powder;Bug;Status;Clever;20;None;None;5
+477;Telekinesis;Psychic;Status;Clever;15;None;None;5
+478;Magic Room;Psychic;Status;Clever;10;None;None;5
+479;Smack Down;Rock;Physical;Tough;15;50;100;5
+480;Storm Throw;Fighting;Physical;Cool;10;60;100;5
+481;Flame Burst;Fire;Special;Beautiful;15;70;100;5
+482;Sludge Wave;Poison;Special;Tough;10;95;100;5
+483;Quiver Dance;Bug;Status;Beautiful;20;None;None;5
+484;Heavy Slam;Steel;Physical;Tough;10;None;100;5
+485;Synchronoise;Psychic;Special;Clever;10;120;100;5
+486;Electro Ball;Electric;Special;Cool;10;None;100;5
+487;Soak;Water;Status;Cute;20;None;100;5
+488;Flame Charge;Fire;Physical;Cool;20;50;100;5
+489;Coil;Poison;Status;Tough;20;None;None;5
+490;Low Sweep;Fighting;Physical;Clever;20;65;100;5
+491;Acid Spray;Poison;Special;Beautiful;20;40;100;5
+492;Foul Play;Dark;Physical;Clever;15;95;100;5
+493;Simple Beam;Normal;Status;Cute;15;None;100;5
+494;Entrainment;Normal;Status;Cute;15;None;100;5
+495;After You;Normal;Status;Cute;15;None;None;5
+496;Round;Normal;Special;Beautiful;15;60;100;5
+497;Echoed Voice;Normal;Special;Beautiful;15;40;100;5
+498;Chip Away;Normal;Physical;Tough;20;70;100;5
+499;Clear Smog;Poison;Special;Beautiful;15;50;None;5
+500;Stored Power;Psychic;Special;Clever;10;20;100;5
+501;Quick Guard;Fighting;Status;Cool;15;None;None;5
+502;Ally Switch;Psychic;Status;Clever;15;None;None;5
+503;Scald;Water;Special;Tough;15;80;100;5
+504;Shell Smash;Normal;Status;Tough;15;None;None;5
+505;Heal Pulse;Psychic;Status;Beautiful;10;None;None;5
+506;Hex;Ghost;Special;Clever;10;65;100;5
+507;Sky Drop;Flying;Physical;Tough;10;60;100;5
+508;Shift Gear;Steel;Status;Clever;10;None;None;5
+509;Circle Throw;Fighting;Physical;Cool;10;60;90;5
+510;Incinerate;Fire;Special;Tough;15;60;100;5
+511;Quash;Dark;Status;Clever;15;None;100;5
+512;Acrobatics;Flying;Physical;Cool;15;55;100;5
+513;Reflect Type;Normal;Status;Clever;15;None;None;5
+514;Retaliate;Normal;Physical;Cool;5;70;100;5
+515;Final Gambit;Fighting;Special;Tough;5;None;100;5
+516;Bestow;Normal;Status;Cute;15;None;None;5
+517;Inferno;Fire;Special;Beautiful;5;100;50;5
+518;Water Pledge;Water;Special;Beautiful;10;80;100;5
+519;Fire Pledge;Fire;Special;Beautiful;10;80;100;5
+520;Grass Pledge;Grass;Special;Beautiful;10;80;100;5
+521;Volt Switch;Electric;Special;Cool;20;70;100;5
+522;Struggle Bug;Bug;Special;Cute;20;50;100;5
+523;Bulldoze;Ground;Physical;Tough;20;60;100;5
+524;Frost Breath;Ice;Special;Beautiful;10;60;90;5
+525;Dragon Tail;Dragon;Physical;Tough;10;60;90;5
+526;Work Up;Normal;Status;Tough;30;None;None;5
+527;Electroweb;Electric;Special;Beautiful;15;55;95;5
+528;Wild Charge;Electric;Physical;Tough;15;90;100;5
+529;Drill Run;Ground;Physical;Tough;10;80;95;5
+530;Dual Chop;Dragon;Physical;Tough;15;40;90;5
+531;Heart Stamp;Psychic;Physical;Cute;25;60;100;5
+532;Horn Leech;Grass;Physical;Tough;10;75;100;5
+533;Sacred Sword;Fighting;Physical;Cool;15;90;100;5
+534;Razor Shell;Water;Physical;Cool;10;75;95;5
+535;Heat Crash;Fire;Physical;Tough;10;None;100;5
+536;Leaf Tornado;Grass;Special;Cool;10;65;90;5
+537;Steamroller;Bug;Physical;Tough;20;65;100;5
+538;Cotton Guard;Grass;Status;Cute;10;None;None;5
+539;Night Daze;Dark;Special;Cool;10;85;95;5
+540;Psystrike;Psychic;Special;Cool;10;100;100;5
+541;Tail Slap;Normal;Physical;Cute;10;25;85;5
+542;Hurricane;Flying;Special;Tough;10;110;70;5
+543;Head Charge;Normal;Physical;Tough;15;120;100;5
+544;Gear Grind;Steel;Physical;Clever;15;50;85;5
+545;Searing Shot;Fire;Special;Cool;5;100;100;5
+546;Techno Blast;Normal;Special;Cool;5;120;100;5
+547;Relic Song;Normal;Special;Beautiful;10;75;100;5
+548;Secret Sword;Fighting;Special;Beautiful;10;85;100;5
+549;Glaciate;Ice;Special;Beautiful;10;65;95;5
+550;Bolt Strike;Electric;Physical;Beautiful;5;130;85;5
+551;Blue Flare;Fire;Special;Beautiful;5;130;85;5
+552;Fiery Dance;Fire;Special;Beautiful;10;80;100;5
+553;Freeze Shock;Ice;Physical;Beautiful;5;140;90;5
+554;Ice Burn;Ice;Special;Beautiful;5;140;90;5
+555;Snarl;Dark;Special;Tough;15;55;95;5
+556;Icicle Crash;Ice;Physical;Beautiful;10;85;90;5
+557;V-create;Fire;Physical;Cool;5;180;95;5
+558;Fusion Flare;Fire;Special;Beautiful;5;100;100;5
+559;Fusion Bolt;Electric;Physical;Cool;5;100;100;5
+560;Flying Press;Fighting;Physical;Tough;10;100;95;6
+561;Mat Block;Fighting;Status;Cool;10;None;None;6
+562;Belch;Poison;Special;Tough;10;120;90;6
+563;Rototiller;Ground;Status;Tough;10;None;None;6
+564;Sticky Web;Bug;Status;Tough;20;None;None;6
+565;Fell Stinger;Bug;Physical;Cool;25;50;100;6
+566;Phantom Force;Ghost;Physical;Cool;10;90;100;6
+567;Trick-or-Treat;Ghost;Status;Cute;20;None;100;6
+568;Noble Roar;Normal;Status;Tough;30;None;100;6
+569;Ion Deluge;Electric;Status;Beautiful;25;None;None;6
+570;Parabolic Charge;Electric;Special;Clever;20;65;100;6
+571;Forest's Curse;Grass;Status;Clever;20;None;100;6
+572;Petal Blizzard;Grass;Physical;Beautiful;15;90;100;6
+573;Freeze-Dry;Ice;Special;Beautiful;20;70;100;6
+574;Disarming Voice;Fairy;Special;Cute;15;40;None;6
+575;Parting Shot;Dark;Status;Cool;20;None;100;6
+576;Topsy-Turvy;Dark;Status;Clever;20;None;None;6
+577;Draining Kiss;Fairy;Special;Cute;10;50;100;6
+578;Crafty Shield;Fairy;Status;Clever;10;None;None;6
+579;Flower Shield;Fairy;Status;Beautiful;10;None;None;6
+580;Grassy Terrain;Grass;Status;Beautiful;10;None;None;6
+581;Misty Terrain;Fairy;Status;Beautiful;10;None;None;6
+582;Electrify;Electric;Status;Clever;20;None;None;6
+583;Play Rough;Fairy;Physical;Cute;10;90;90;6
+584;Fairy Wind;Fairy;Special;Beautiful;30;40;100;6
+585;Moonblast;Fairy;Special;Beautiful;15;95;100;6
+586;Boomburst;Normal;Special;Tough;10;140;100;6
+587;Fairy Lock;Fairy;Status;Clever;10;None;None;6
+588;King's Shield;Steel;Status;Cool;10;None;None;6
+589;Play Nice;Normal;Status;Cute;20;None;None;6
+590;Confide;Normal;Status;Cute;20;None;None;6
+591;Diamond Storm;Rock;Physical;Beautiful;5;100;95;6
+592;Steam Eruption;Water;Special;Beautiful;5;110;95;6
+593;Hyperspace Hole;Psychic;Special;Clever;5;80;None;6
+594;Water Shuriken;Water;Special;Cool;20;15;100;6
+595;Mystical Fire;Fire;Special;Beautiful;10;75;100;6
+596;Spiky Shield;Grass;Status;Tough;10;None;None;6
+597;Aromatic Mist;Fairy;Status;Beautiful;20;None;None;6
+598;Eerie Impulse;Electric;Status;Clever;15;None;100;6
+599;Venom Drench;Poison;Status;Clever;20;None;100;6
+600;Powder;Bug;Status;Clever;20;None;100;6
+601;Geomancy;Fairy;Status;Beautiful;10;None;None;6
+602;Magnetic Flux;Electric;Status;Clever;20;None;None;6
+603;Happy Hour;Normal;Status;Cute;30;None;None;6
+604;Electric Terrain;Electric;Status;Clever;10;None;None;6
+605;Dazzling Gleam;Fairy;Special;Beautiful;10;80;100;6
+606;Celebrate;Normal;Status;Cute;40;None;None;6
+607;Hold Hands;Normal;Status;Cute;40;None;None;6
+608;Baby-Doll Eyes;Fairy;Status;Cute;30;None;100;6
+609;Nuzzle;Electric;Physical;Cute;20;20;100;6
+610;Hold Back;Normal;Physical;Cool;40;40;100;6
+611;Infestation;Bug;Special;Cute;20;20;100;6
+612;Power-Up Punch;Fighting;Physical;Tough;20;40;100;6
+613;Oblivion Wing;Flying;Special;Cool;10;80;100;6
+614;Thousand Arrows;Ground;Physical;Beautiful;10;90;100;6
+615;Thousand Waves;Ground;Physical;Tough;10;90;100;6
+616;Land's Wrath;Ground;Physical;Beautiful;10;90;100;6
+617;Light of Ruin;Fairy;Special;Beautiful;5;140;90;6
+618;Origin Pulse;Water;Special;Beautiful;10;110;85;6
+619;Precipice Blades;Ground;Physical;Cool;10;120;85;6
+620;Dragon Ascent;Flying;Physical;Beautiful;5;120;100;6
+621;Hyperspace Fury;Dark;Physical;Tough;5;100;None;6
+622;Breakneck Blitz;Normal;Physical;???;1;None;None;7
+623;Breakneck Blitz;Normal;Special;???;1;None;None;7
+624;All-Out Pummeling;Fighting;Physical;???;1;None;None;7
+625;All-Out Pummeling;Fighting;Special;???;1;None;None;7
+626;Supersonic Skystrike;Flying;Physical;???;1;None;None;7
+627;Supersonic Skystrike;Flying;Special;???;1;None;None;7
+628;Acid Downpour;Poison;Physical;???;1;None;None;7
+629;Acid Downpour;Poison;Special;???;1;None;None;7
+630;Tectonic Rage;Ground;Physical;???;1;None;None;7
+631;Tectonic Rage;Ground;Special;???;1;None;None;7
+632;Continental Crush;Rock;Physical;???;1;None;None;7
+633;Continental Crush;Rock;Special;???;1;None;None;7
+634;Savage Spin-Out;Bug;Physical;???;1;None;None;7
+635;Savage Spin-Out;Bug;Special;???;1;None;None;7
+636;Never-Ending Nightmare;Ghost;Physical;???;1;None;None;7
+637;Never-Ending Nightmare;Ghost;Special;???;1;None;None;7
+638;Corkscrew Crash;Steel;Physical;???;1;None;None;7
+639;Corkscrew Crash;Steel;Special;???;1;None;None;7
+640;Inferno Overdrive;Fire;Physical;???;1;None;None;7
+641;Inferno Overdrive;Fire;Special;???;1;None;None;7
+642;Hydro Vortex;Water;Physical;???;1;None;None;7
+643;Hydro Vortex;Water;Special;???;1;None;None;7
+644;Bloom Doom;Grass;Physical;???;1;None;None;7
+645;Bloom Doom;Grass;Special;???;1;None;None;7
+646;Gigavolt Havoc;Electric;Physical;???;1;None;None;7
+647;Gigavolt Havoc;Electric;Special;???;1;None;None;7
+648;Shattered Psyche;Psychic;Physical;???;1;None;None;7
+649;Shattered Psyche;Psychic;Special;???;1;None;None;7
+650;Subzero Slammer;Ice;Physical;???;1;None;None;7
+651;Subzero Slammer;Ice;Special;???;1;None;None;7
+652;Devastating Drake;Dragon;Physical;???;1;None;None;7
+653;Devastating Drake;Dragon;Special;???;1;None;None;7
+654;Black Hole Eclipse;Dark;Physical;???;1;None;None;7
+655;Black Hole Eclipse;Dark;Special;???;1;None;None;7
+656;Twinkle Tackle;Fairy;Physical;???;1;None;None;7
+657;Twinkle Tackle;Fairy;Special;???;1;None;None;7
+658;Catastropika;Electric;Physical;???;1;210;None;7
+659;Shore Up;Ground;Status;???;10;None;None;7
+660;First Impression;Bug;Physical;???;10;90;100;7
+661;Baneful Bunker;Poison;Status;???;10;None;None;7
+662;Spirit Shackle;Ghost;Physical;???;10;80;100;7
+663;Darkest Lariat;Dark;Physical;???;10;85;100;7
+664;Sparkling Aria;Water;Special;???;10;90;100;7
+665;Ice Hammer;Ice;Physical;???;10;100;90;7
+666;Floral Healing;Fairy;Status;???;10;None;None;7
+667;High Horsepower;Ground;Physical;???;10;95;95;7
+668;Strength Sap;Grass;Status;???;10;None;100;7
+669;Solar Blade;Grass;Physical;???;10;125;100;7
+670;Leafage;Grass;Physical;???;40;40;100;7
+671;Spotlight;Normal;Status;???;15;None;None;7
+672;Toxic Thread;Poison;Status;???;20;None;100;7
+673;Laser Focus;Normal;Status;???;30;None;None;7
+674;Gear Up;Steel;Status;???;20;None;None;7
+675;Throat Chop;Dark;Physical;???;15;80;100;7
+676;Pollen Puff;Bug;Special;???;15;90;100;7
+677;Anchor Shot;Steel;Physical;???;20;80;100;7
+678;Psychic Terrain;Psychic;Status;???;10;None;None;7
+679;Lunge;Bug;Physical;???;15;80;100;7
+680;Fire Lash;Fire;Physical;???;15;80;100;7
+681;Power Trip;Dark;Physical;???;10;20;100;7
+682;Burn Up;Fire;Special;???;5;130;100;7
+683;Speed Swap;Psychic;Status;???;10;None;None;7
+684;Smart Strike;Steel;Physical;???;10;70;None;7
+685;Purify;Poison;Status;???;20;None;None;7
+686;Revelation Dance;Normal;Special;???;15;90;100;7
+687;Core Enforcer;Dragon;Special;???;10;100;100;7
+688;Trop Kick;Grass;Physical;???;15;70;100;7
+689;Instruct;Psychic;Status;???;15;None;None;7
+690;Beak Blast;Flying;Physical;???;15;100;100;7
+691;Clanging Scales;Dragon;Special;???;5;110;100;7
+692;Dragon Hammer;Dragon;Physical;???;15;90;100;7
+693;Brutal Swing;Dark;Physical;???;20;60;100;7
+694;Aurora Veil;Ice;Status;???;20;None;None;7
+695;Sinister Arrow Raid;Ghost;Physical;???;1;180;None;7
+696;Malicious Moonsault;Dark;Physical;???;1;180;None;7
+697;Oceanic Operetta;Water;Special;???;1;195;None;7
+698;Guardian of Alola;Fairy;Special;???;1;None;None;7
+699;Soul-Stealing 7-Star Strike;Ghost;Physical;???;1;195;None;7
+700;Stoked Sparksurfer;Electric;Special;???;1;175;None;7
+701;Pulverizing Pancake;Normal;Physical;???;1;210;None;7
+702;Extreme Evoboost;Normal;Status;???;1;None;None;7
+703;Genesis Supernova;Psychic;Special;???;1;185;None;7
+704;Shell Trap;Fire;Special;???;5;150;100;7
+705;Fleur Cannon;Fairy;Special;???;5;130;90;7
+706;Psychic Fangs;Psychic;Physical;???;10;85;100;7
+707;Stomping Tantrum;Ground;Physical;???;10;75;100;7
+708;Shadow Bone;Ghost;Physical;???;10;85;100;7
+709;Accelerock;Rock;Physical;???;20;40;100;7
+710;Liquidation;Water;Physical;???;10;85;100;7
+711;Prismatic Laser;Psychic;Special;???;10;160;100;7
+712;Spectral Thief;Ghost;Physical;???;10;90;100;7
+713;Sunsteel Strike;Steel;Physical;???;5;100;100;7
+714;Moongeist Beam;Ghost;Special;???;5;100;100;7
+715;Tearful Look;Normal;Status;???;20;None;None;7
+716;Zing Zap;Electric;Physical;???;10;80;100;7
+717;Nature's Madness;Fairy;Special;???;10;None;90;7
+718;Multi-Attack;Normal;Physical;???;10;90;100;7
+719;10,000,000 Volt Thunderbolt;Electric;Special;???;1;195;None;7
+720;Mind Blown;Fire;Special;???;5;150;100;7
+721;Plasma Fists;Electric;Physical;???;15;100;100;7
+722;Photon Geyser;Psychic;Special;???;5;100;100;7
+723;Light That Burns the Sky;Psychic;Special;???;1;200;None;7
+724;Searing Sunraze Smash;Steel;Special;???;1;200;None;7
+725;Menacing Moonraze Maelstrom;Ghost;Special;???;1;200;None;7
+726;Let's Snuggle Forever;Fairy;Physical;???;1;190;None;7
+727;Splintered Stormshards;Rock;Physical;???;1;190;None;7
+728;Clangorous Soulblaze;Dragon;Special;???;1;185;None;7
