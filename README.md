@@ -8,3 +8,5 @@ Introduction to Neural Networks with TensorFlow 2.0: https://youtu.be/a_RkE897-K
 Introduction to Pandas for Python: https://youtu.be/mesgiVk8G6s
 
 Introduction to Machine Learning with Scikit-learn: https://youtu.be/ANdn3CF4bss
+
+Introduction to JAX: https://youtu.be/QkmKfzxbCLQ
