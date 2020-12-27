@@ -166,7 +166,7 @@ df.columns = [
     'Name', 'Tier', 'HP', 'Attack', 'Defense', 'Special Attack',
     'Special Defense', 'Speed', 'Next Evolution(s)', 'Moves',
     'Evolutionary Stage', 'Num Evolutionary Stages', 'Evolutionary Progress',
-    'Is Mega Evolution', 'Is Alternate Form', 'Num Moves', 'Base State Total',
+    'Is Mega Evolution', 'Is Alternate Form', 'Num Moves', 'Base Stat Total',
     'Has Negative Ability', 'Type 1', 'Type 2', 'Num Types', 'Num Abilities',
     'Ability 1', 'Ability 2', 'Ability 3'
 ]
@@ -175,7 +175,7 @@ df = df[[
     'Name', 'Tier', 'Num Types', 'Type 1', 'Type 2', 'Num Abilities',
     'Ability 1', 'Ability 2', 'Ability 3', 'Has Negative Ability', 'HP',
     'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed',
-    'Base State Total', 'Next Evolution(s)', 'Evolutionary Stage',
+    'Base Stat Total', 'Next Evolution(s)', 'Evolutionary Stage',
     'Num Evolutionary Stages', 'Evolutionary Progress', 'Is Mega Evolution',
     'Is Alternate Form', 'Num Moves', 'Moves'
 ]]
@@ -244,9 +244,8 @@ df['Recovery Moves'] = df.Moves.map(lambda moves: moves.intersection(recovery))
 
 priority = {
     'Fake Out', 'Extreme Speed', 'Feint', 'Aqua Jet', 'Bullet Punch',
-    'Ice Shard', 'Accelerock'
-    'Mach Punch', 'Shadow Sneak', 'Sucker Punch', 'Vacuum Wave',
-    'Water Shuriken'
+    'Ice Shard', 'Accelerock', 'Mach Punch', 'Shadow Sneak', 'Sucker Punch',
+    'Vacuum Wave', 'Water Shuriken'
 }
 
 
