@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+
+\addtolength{\hoffset}{-2cm}
+\addtolength{\textwidth}{4.5cm}
+\addtolength{\voffset}{-2.5cm}
+\addtolength{\textheight}{5cm}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{15pt}
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+
+\pagestyle{empty}
+\begin{document}
+\textsc{Bayesian Data Analysis: Ch. 10 Exercises} \hfill \textsc{Nicholas Vadivelu}
+\smallskip
+\hrule
+\bigskip
+
+\begin{enumerate}[1.]
+
+% Question 1 ===================== 
+\item 
+\begin{enumerate}[(a)]
+\item \textbf{Given information:} $\theta|y \sim \mathrm{N}(\mu, \sigma^2)$, have $n$ independent samples of $\theta$. sd$(\theta|y) = \sigma$\\
+    
+To estimate the $p$\% quantile from a sample $\theta^1, \theta^2, ...\theta^n$, you sort the sample to obtain $\theta^{(1)}, \theta^{(2)},$ $..., \theta^{(n)}$. 
+$\theta^{(k)}$ is called the \textit{kth order statistic} and refers to the kth smallest item in the sample. 
+The estimate for the $p$\% quantile is then $\theta^{(\lfloor np \rfloor)}$ (you may interpolate between the two nearest integers around $np$, but here we are concerned about the accuracy so we won't discuss this).
+
+The variance of this estimator is:
+
+\begin{align}
+\sigma_{est}^2 = \frac{p(1-p)}{n f(F^{-1}(p))^2}
+\end{align}
+
+Where $f$ is the PDF and $F^{-1}$ is the inverse CDF.
+That is, $F^{-1}(p)$ gives you the $p$\% quantile.
+The $p(1-p)/n$ term comes from the variance of binomial distribution (sum of bernouilli indicators) as demonstrated in lecture 4.1.
+I don't know the justification behind the $f$ term and would appreciate for someone to shed light on that.
+
+This equation seems unhelpful, since we would like to estimate the variance, but we need the density of the distribution we're trying to estimate!
+Luckily, we only want to control the deviation proportional to the standard deviation of the posterior, which we can compute for the normal distribution in particular.
+
+If you work out the math, you'll find that:
+
+\begin{align}
+f_{N(\mu, \sigma^2)}(F_{N(\mu, \sigma^2)}^{-1}(p)) = \frac{f_{N(0, 1)}(F_{N(0, 1)}^{-1}(p))}{\sigma}
+\end{align}
+
+Which is now only depends on our $\sigma$.
+Plugging this into (1):
+
+
+We are concerned about $p=2.5\%$ and $p=97.5\%$:
+
+$$f_{N(0, 1)}(F_{N(0, 1)}^{-1}(0.025))^2 = f_{N(0, 1)}(-1.96)^2 = 0.003416 $$
+
+By symmetry, we get the same value for $p=97.5\%$.
+We now solve for the minimum $n$:
+
+$$0.1\sigma \ge \sqrt{\frac{p(1-p)\sigma^2}{0.00341n}} \implies n \ge \frac{p(1-p)}{0.00003416}$$
+
+Plugging in $p=2.5\%$ and $p=97.5\%$, we know we require $n \ge 714$ for an accuracy of $0.1 \text{sd}(\theta|y)$.
+\end{enumerate}
+
+\newpage
+
+% Question 2 ===================== 
+\item \textbf{Given information:} Have 100 independent draws of $\theta_1$, which is approximately $N(8, 4^2)$.
+\begin{enumerate}[(a)]
+\item By central limit theorem, the standard deviation of the sample mean is:
+$$\sigma_{\text{sim}} = \sqrt{\frac{\mathrm{Var}(\theta_1)}{n}} = \sqrt{\frac{4^2}{100}} = 0.4$$
+Thus the standard deviation due to simulation variability is 0.4.
+Notice we do not incorporate the epistemic uncertainty (i.e. $\sigma$) here because we only want the standard deviation \textit{due to simulation variability}.
+
+\item To reduce $\sigma_{\text{sim}}$ to 0.1, we want need a reduction by a factor of 4:
+$$\frac{sigma_{\text{sim}}}{4} = \frac{1}{4}\sqrt{\frac{\mathrm{Var}(\theta_1)}{n}} = \sqrt{\frac{\mathrm{Var}(\theta_1)}{16 n}}$$
+
+Our original $n=100$, thus we need $1600$ simulation draws for a simulation standard deviation of $0.1$.
+
+\item In Q1, we computed the \textit{total} standard deviation of the estimate. 
+Here, we are concerned with the \textit{simulation} standard deviation of the estimate. 
+What is the simulation standard deviation for a quantile?
+
+\item Depends on (c)
+\item Skipped due to not covering this example yet.
+\item Skipped due to not covering this example yet.
+\end{enumerate}
+\end{enumerate}
+
+
+\end{document}
